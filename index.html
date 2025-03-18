@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche y Mini Cooper - Venta de Autos</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; margin: 0; padding: 0; }
+        h1 { color: #fff; font-size: 2.5em; margin: 0; }
+        h3 { color: #ddd; font-size: 1.2em; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+        .card {
+            background: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 320px;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: scale(1.08);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+        img { width: 100%; height: auto; border-radius: 10px; transition: transform 0.3s ease; }
+        .card:hover img {
+            transform: scale(1.1);
+        }
+        h2 { color: #444; }
+        .price { font-size: 22px; color: #3328a7; font-weight: bold; }
+        .header {
+            background: linear-gradient(to right, #000, #1e53ff);
+            padding: 40px 20px;
+            color: white;
+            text-align: center;
+            border-bottom: 5px solid #221eff;
+        }
+        .footer {
+            background: #b71313;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .section-title {
+            width: 100%;
+            background: #2d2b2b;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 2em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Venta de Autos Porsche y Mini Cooper</h1>
+        <h3>Dueño: Drako David Salazar Torres - Semestre 1B</h3>
+    </div>
+    
+    <div class="section-title">Porsche</div>
+    <div class="container">
+        <div class="card">
+            <img src="https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXkBuNYdMGF4tl3U0%25z8rMHIspbWvanYb%255y%25oq%25vSTmjMXD4qAZeoNBPUSfUx4RmHlCgI7Zl2dioCtNvQDcFGDTMYnfurR5eV6iTk7QzhRc2GauqAZ%25oD21P%25S1BAXmOnugTfeIJpV7nDhQk" alt="Porsche Modelo 1">
+            <h2>Porsche 911</h2>
+            <p class="price">$750,000,000 COP</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXzhUay2oM-k0mSlkAaiGwv2NkEJjpjaz-dA&s" alt="Porsche Modelo 2">
+            <h2>Porsche Cayenne</h2>
+            <p class="price">$580,000,000 COP</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQKd4D0rN303AWDsCBHqCNxUVfNI99FQ9ew&s" alt="Porsche Modelo 3">
+            <h2>Porsche Taycan</h2>
+            <p class="price">$720,000,000 COP</p>
+        </div>
+        <div class="card">
+            <img src="https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXkBuNYdMGF4tl3U0%25z8rMHIspMBvMZq6G5OtgSv31nBJaA4qh4NSEGewirQ91wRmWBi2Ch7gVdcQTxUlhDfz%252spAnPqRSiZJyNyU7ctBvo%25LXj4AUur46a%25JstEcRmWBioxH7gVdcDXoUlSjv8cqnjYqZBBUFQv0iDRrpKmhE8gfEd" alt="Porsche Modelo 4">
+            <h2>Porsche Macan</h2>
+            <p class="price">$420,000,000 COP</p>
+        </div>
+    </div>
+    
+    <div class="section-title">Mini Cooper</div>
+    <div class="container">
+        <div class="card">
+            <img src="https://autosdeprimera.com/wp-content/uploads/2024/02/mini-cooper-s-2024-a.jpg" alt="Mini Cooper Modelo 1">
+            <h2>Mini Cooper S</h2>
+            <p class="price">$180,000,000 COP</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY44YSgXl2WAY79EF1iTWOj8yaEtHk4glTnQ&s" alt="Mini Cooper Modelo 2">
+            <h2>Mini Cooper Countryman</h2>
+            <p class="price">$210,000,000 COP</p>
+        </div>
+        <div class="card">
+            <img src="https://dealer-content.s3.amazonaws.com/images/models/mini/2022/clubman/colors/chili-red.png" alt="Mini Cooper Modelo 3">
+            <h2>Mini Cooper Clubman</h2>
+            <p class="price">$195,000,000 COP</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zc3hpBAQgGGzetUCl2rkiCv1HZZCste4_g&s" alt="Mini Cooper Modelo 4">
+            <h2>Mini Cooper Electric</h2>
+            <p class="price">$160,000,000 COP</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Pasto, Colombia | Universidad Cooperativa de Colombia</p>
+    </div>
+</body>
+</html>
